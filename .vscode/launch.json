@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C# Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><project-name>.csproj"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",  // Use "coreclr" instead of "dotnet"
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Turing Prime/bin/Debug/net8.0/Turing Prime.dll",
+            "args": ["${input:arg1}"],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal"
+          }
+    ],
+    "inputs": [
+    {
+      "id": "arg1",
+      "type": "promptString",
+      "description": "Type a number to process:"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dotnet",
+			"task": "build /home/aharon266/Work/cs/Turing_CS/Turing Prime/Turing Prime.csproj",
+			"file": "/home/aharon266/Work/cs/Turing_CS/Turing Prime/Turing Prime.csproj",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "build"
+		}
+	]
+}
